@@ -1,0 +1,23 @@
+body {
+    background-color: #F9F9F9;    
+}
+
+.button {
+    background: #CECECE;
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+}
+
+.button:hover {
+    background: #B0B0B0;
+}
+
+.button:focus {
+    border-color: #555555;
+}
+
+.button::selection {
+    background: #A7A7A7;
+}
+
