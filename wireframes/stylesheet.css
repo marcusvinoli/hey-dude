@@ -64,6 +64,14 @@ body {
     border-right-color: #A7A7A7;
 }
 
+.menu-item-button{
+    background-color: brown;
+}
+
+button {
+    background-color: brown;
+
+}
 .right-canvas {
     background-color: #F9F9F9;
     width: 100%;

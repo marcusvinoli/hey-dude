@@ -2,6 +2,7 @@
 <head>
     <title>Hey-Dude!</title>
     <meta charset="UTF-8">
+    <!-- <link rel="stylesheet" href="../src/renderer/components/Styles/reset.css"> -->
     <link rel="stylesheet" href="../src/renderer/components/Styles/clear-theme.css">
 </head>
 
@@ -10,14 +11,11 @@
         Hey-Dude - Unamed Project
     </div>
     <div class="application-area">
-        <div class = "left-menu">
-            <ul class = "menu">
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</li>
-                <!-- <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-help"></div>Help</li> -->
-            </ul>
+        <div class = "left-menu-bar">
+            <button class = "menu-item-button" onclick="selectWindows(event, 'A')"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</button>
+            <button class = "menu-item-button" onclick="selectWindows(event, 'B')"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</button>
+            <button class = "menu-item-button" onclick="selectWindows(event, 'C')"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</button>
+            <button class = "menu-item-button" onclick="selectWindows(event, 'D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
         </div>
         <div class = "right-canvas">
             <!-- TEMPLATES FOR CANVAS RENDERING -->
@@ -48,4 +46,10 @@
     <div class ="status-bar">
         Ready to go!
     </div>
+
+    <script>
+        function selectWindows(event, item) {
+            console.log(item);
+        }
+    </script>
 </body>
