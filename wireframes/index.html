@@ -3,53 +3,77 @@
     <title>Hey-Dude!</title>
     <meta charset="UTF-8">
     <!-- <link rel="stylesheet" href="../src/renderer/components/Styles/reset.css"> -->
+    <link rel="stylesheet" href="../src/renderer/components/Styles/reset.css">
     <link rel="stylesheet" href="../src/renderer/components/Styles/clear-theme.css">
+    <link rel="import" href="project.html" id="project-page-template">
+    <script src="../src/renderer/components/Scripts/microcontrollerListFiller.js"></script>
 </head>
 
-<body>
+<template id="project-page">
+    <div class="field-box project-name-field">
+        <label for="project-name">Project Name</label>
+        <input class="field" type="text" id="project-name" name="project-name">
+    </div>
+
+    <div class="field-box mcu-part-field">
+        <label for="project-name">Microcontroller</label>
+        <select class="field" type="text" id="mcu-pn-name" name="project-name">
+            <option disabled="" value="" selected data-default>Select MCU part number</option>
+            <option value="m328p">Atmega328P</option>
+            <option value="m32">Atmega32</option>
+            <option value="m8">Atmega8</option>
+            <option value="m128p">Atmega128P</option>
+            <option value="m64">Atmega64</option>
+            <option value="t8">Attiny8</option>
+        </select>
+    </div>
+
+    <div class="field-box programmer-field">
+        <label for="project-name">Programmer</label>
+        <select class="field" type="text" id="pgmr-name" name="project-name">
+            <option disabled="" value="" selected data-default>Select Programming Tool</option>
+            <option value="usbasp">USBAsp</option>
+            <option value="arduino">Arduino</option>
+        </select>
+        </select>
+    </div>
+
+    <div class="field field-buttons">
+        <button class="generic-button">Open</button>
+        <button class="generic-button">Save New Project</button>
+    </div>
+
+</template>
+
+<body onload="selectWindow(event, 'A')">
+    
     <div class ="title-bar">
         Hey-Dude - Unamed Project
     </div>
     <div class="application-area">
         <div class = "left-menu-bar">
-            <button class = "menu-item-button" onclick="selectWindows(event, 'A')"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</button>
-            <button class = "menu-item-button" onclick="selectWindows(event, 'B')"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</button>
-            <button class = "menu-item-button" onclick="selectWindows(event, 'C')"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</button>
-            <button class = "menu-item-button" onclick="selectWindows(event, 'D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
+            <button class = "menu-item-button" onclick="selectWindow(event, 'A')"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</button>
+            <button class = "menu-item-button" onclick="selectWindow(event, 'B')"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</button>
+            <button class = "menu-item-button" onclick="selectWindow(event, 'C')"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</button>
+            <button class = "menu-item-button" onclick="selectWindow(event, 'D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
         </div>
-        <div class = "right-canvas">
-            <!-- TEMPLATES FOR CANVAS RENDERING -->
-
-            <div class = "canvas project-canvas">
-                
-            </div>
-
-            <div class = "">
-                <label class = "file-input-box">
-                    <input type="file" id ="firmware-input"id="file" aria-label="File browser example">
-                </label>
-            </div>
-
-            <!--
-            <div class = "canvas firmware-canvas">
-                <div class = "file-io">
-                    <form action="/action_page.php">
-                        <label for="myfile" class = "input-box-label">Select a firmware file:</label>
-                        <input class = "input-box" type="file" id="myfile" name="myfile">
-                        <input class = "button" type="submit"> 
-                      </form>
-                </div>
-            </div> -->
-
+        <div class="right-canvas" id="page-canvas">
+            
         </div>
     </div>
     <div class ="status-bar">
         Ready to go!
     </div>
-
-    <script>
-        function selectWindows(event, item) {
-            console.log(item);
-        }
-    </script>
 </body>
+
+<script>
+    function selectWindow(event, item) {
+        const canvas = document.getElementById("page-canvas");
+        const page = document.getElementById("project-page");
+        const clone = page.content.cloneNode(true);
+        canvas.appendChild(clone);
+        console.log(item);
+
+        fillSelectOptions("mcu-pn-name")
+    }
+</script>

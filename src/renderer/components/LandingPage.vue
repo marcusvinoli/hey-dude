@@ -4,27 +4,34 @@
         Hey-Dude - Unamed Project
     </div>
     <div class="application-area">
-        <div class = "left-menu">
-            <ul class = "menu">
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</li>
-                <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</li>
-                <!-- <li class = "menu-item"><div class = "menu-item-icon" id = "menu-item-icon-help"></div>Help</li> -->
-            </ul>
+        <div class = "left-menu-bar">
+            <button class = "menu-item-button" onclick="console.log('A')"><div class = "menu-item-icon" id = "menu-item-icon-project"></div>Project</button>
+            <button class = "menu-item-button" onclick="console.log('B')"><div class = "menu-item-icon" id = "menu-item-icon-firmware"></div>Firmware</button>
+            <button class = "menu-item-button" onclick="console.log('C')"><div class = "menu-item-icon" id = "menu-item-icon-eeprom"></div>EEPROM</button>
+            <button class = "menu-item-button" onclick="console.log('D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
         </div>
-        <div class = "right-canvas">
-            <!-- TEMPLATES FOR CANVAS RENDERING -->
+        <div class="right-canvas" id="page-canvas">
+          <div id="project-page">
+              <div class="field-box project-name-field">
+                  <label for="project-name">Project Name</label>
+                  <input class="field" type="text" id="project-name" name="project-name">
+              </div>
 
-            <div class = "canvas project-canvas">
-                
-            </div>
+              <div class="field-box mcu-part-field">
+                  <MicrocontrollersList/>
+              </div>
 
-            <div class = "">
-                <label class = "file-input-box">
-                    <input type="file" id ="firmware-input" aria-label="File browser example">
-                </label>
-            </div>
+              <div class="field-box programmer-field">
+                  <ProgrammersList/>
+              </div>
+
+              <div class="field field-buttons">
+                  <button class="generic-button">Open</button>
+                  <button class="generic-button">Save New Project</button>
+              </div>
+
+          </div>
+
         </div>
     </div>
     <div class ="status-bar">
@@ -34,15 +41,14 @@
 </template>
 
 <script>
-  import SystemInformation from './LandingPage/SystemInformation'
+  //  import SystemInformation from './LandingPage/SystemInformation'
+  import MicrocontrollersList from './MicrocontrollersList'
+  import ProgrammersList from './ProgrammersList'
 
   export default {
-    name: 'landing-page',
-    components: { SystemInformation },
-    methods: {
-      open (link) {
-        this.$electron.shell.openExternal(link)
-      }
+    components: {
+      MicrocontrollersList,
+      ProgrammersList
     }
   }
 </script>

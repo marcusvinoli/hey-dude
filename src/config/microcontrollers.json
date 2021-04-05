@@ -1,0 +1,470 @@
+[
+    {
+      "partnumber": "AT90CAN128",
+      "value": "c128",
+      "signature": "1e9781"
+    },
+    {
+      "partnumber": "AT90CAN32",
+      "value": "c32",
+      "signature": "1e9581"
+    },
+    {
+      "partnumber": "AT90CAN64",
+      "value": "c64",
+      "signature": "1e9681"
+    },
+    {
+      "partnumber": "AT90PWM2",
+      "value": "pwm2",
+      "signature": "1e9381"
+    },
+    {
+      "partnumber": "AT90PWM2B",
+      "value": "pwm2b",
+      "signature": "1e9383"
+    },
+    {
+      "partnumber": "AT90PWM3",
+      "value": "pwm3",
+      "signature": "1e9381"
+    },
+    {
+      "partnumber": "AT90PWM3B",
+      "value": "pwm3b",
+      "signature": "1e9383"
+    },
+    {
+      "partnumber": "AT90USB1286",
+      "value": "usb1286",
+      "signature": "1e9782"
+    },
+    {
+      "partnumber": "AT90USB1287",
+      "value": "usb1287",
+      "signature": "1e9782"
+    },
+    {
+      "partnumber": "AT90USB162",
+      "value": "usb162",
+      "signature": "1e9482"
+    },
+    {
+      "partnumber": "AT90USB646",
+      "value": "usb646",
+      "signature": "1e9682"
+    },
+    {
+      "partnumber": "AT90USB647",
+      "value": "usb647",
+      "signature": "1e9682"
+    },
+    {
+      "partnumber": "AT90USB82",
+      "value": "usb82",
+      "signature": "1e9382"
+    },
+    {
+      "partnumber": "AT90s1200",
+      "value": "1200",
+      "signature": "1e9001"
+    },
+    {
+      "partnumber": "AT90s2313",
+      "value": "2313",
+      "signature": "1e9101"
+    },
+    {
+      "partnumber": "AT90s2323",
+      "value": "2343",
+      "signature": "1e9103"
+    },
+    {
+      "partnumber": "AT90s2333",
+      "value": "2333",
+      "signature": "1e9105"
+    },
+    {
+      "partnumber": "AT90s2343",
+      "value": "2343 ",
+      "signature": "1e9103"
+    },
+    {
+      "partnumber": "AT90s4414",
+      "value": "4414",
+      "signature": "1e9201"
+    },
+    {
+      "partnumber": "AT90s4433",
+      "value": "4433",
+      "signature": "1e9203"
+    },
+    {
+      "partnumber": "AT90s4434",
+      "value": "4434",
+      "signature": "1e9202"
+    },
+    {
+      "partnumber": "AT90s8515",
+      "value": "8515",
+      "signature": "1e9301"
+    },
+    {
+      "partnumber": "AT90s8535",
+      "value": "8535",
+      "signature": "1e9303"
+    },
+    {
+      "partnumber": "ATmega103",
+      "value": "m103",
+      "signature": "1e9701"
+    },
+    {
+      "partnumber": "ATmega128",
+      "value": "m128",
+      "signature": "1e9702"
+    },
+    {
+      "partnumber": "ATmega1280",
+      "value": "m1280",
+      "signature": "1e9703"
+    },
+    {
+      "partnumber": "ATmega1281",
+      "value": "m1281",
+      "signature": "1e9704"
+    },
+    {
+      "partnumber": "ATmega1284P",
+      "value": "m1284p",
+      "signature": "1e9705"
+    },
+    {
+      "partnumber": "ATmega128RFA1",
+      "value": "m128rfa1",
+      "signature": "1ea701"
+    },
+    {
+      "partnumber": "ATmega16",
+      "value": "m16",
+      "signature": "1e9403"
+    },
+    {
+      "partnumber": "ATmega161",
+      "value": "m161",
+      "signature": "1e9401"
+    },
+    {
+      "partnumber": "ATmega162",
+      "value": "m162",
+      "signature": "1e9404"
+    },
+    {
+      "partnumber": "ATmega163",
+      "value": "m163",
+      "signature": "1e9402"
+    },
+    {
+      "partnumber": "ATmega164P",
+      "value": "m164p",
+      "signature": "1e940a"
+    },
+    {
+      "partnumber": "ATmega168",
+      "value": "m168",
+      "signature": "1e9406"
+    },
+    {
+      "partnumber": "ATmega169",
+      "value": "m169",
+      "signature": "1e9405"
+    },
+    {
+      "partnumber": "ATmega2560",
+      "value": "m2560",
+      "signature": "1e9801"
+    },
+    {
+      "partnumber": "ATmega2561",
+      "value": "m2561",
+      "signature": "1e9802"
+    },
+    {
+      "partnumber": "ATmega32",
+      "value": "m32",
+      "signature": "1e9502"
+    },
+    {
+      "partnumber": "ATmega324P",
+      "value": "m324p",
+      "signature": "1e9508"
+    },
+    {
+      "partnumber": "ATmega325",
+      "value": "m325",
+      "signature": "1e9505"
+    },
+    {
+      "partnumber": "ATmega3250",
+      "value": "m3250",
+      "signature": "1e9506"
+    },
+    {
+      "partnumber": "ATmega328P",
+      "value": "m328p",
+      "signature": "1e950F"
+    },
+    {
+      "partnumber": "ATmega328PB",
+      "value": "m328pb",
+      "signature": "1e9516"
+    },
+    {
+      "partnumber": "ATmega329",
+      "value": "m329",
+      "signature": "1e9503"
+    },
+    {
+      "partnumber": "ATmega3290",
+      "value": "m3290",
+      "signature": "1e9504"
+    },
+    {
+      "partnumber": "ATmega3290P",
+      "value": "m3290p",
+      "signature": "1e950c"
+    },
+    {
+      "partnumber": "ATmega329P",
+      "value": "m329p",
+      "signature": "1e950b"
+    },
+    {
+      "partnumber": "ATmega32U4",
+      "value": "m32u4",
+      "signature": "1e9587"
+    },
+    {
+      "partnumber": "ATmega48",
+      "value": "m48",
+      "signature": "1e9205"
+    },
+    {
+      "partnumber": "ATmega64",
+      "value": "m64",
+      "signature": "1e9602"
+    },
+    {
+      "partnumber": "ATmega640",
+      "value": "m640",
+      "signature": "1e9608"
+    },
+    {
+      "partnumber": "ATmega644",
+      "value": "m644",
+      "signature": "1e9609"
+    },
+    {
+      "partnumber": "ATmega644P",
+      "value": "m644p",
+      "signature": "1e960a"
+    },
+    {
+      "partnumber": "ATmega645",
+      "value": "m645",
+      "signature": "1e9605"
+    },
+    {
+      "partnumber": "ATmega6450",
+      "value": "m6450",
+      "signature": "1e9606"
+    },
+    {
+      "partnumber": "ATmega649",
+      "value": "m649",
+      "signature": "1e9603"
+    },
+    {
+      "partnumber": "ATmega6490",
+      "value": "m6490",
+      "signature": "1e9604"
+    },
+    {
+      "partnumber": "ATmega8",
+      "value": "m8",
+      "signature": "1e9307"
+    },
+    {
+      "partnumber": "ATmega8515",
+      "value": "m8515",
+      "signature": "1e9306"
+    },
+    {
+      "partnumber": "ATmega8535",
+      "value": "m8535",
+      "signature": "1e9308"
+    },
+    {
+      "partnumber": "ATmega88",
+      "value": "m88",
+      "signature": "1e930a"
+    },
+    {
+      "partnumber": "ATtiny11",
+      "value": "t11",
+      "signature": "1e9004"
+    },
+    {
+      "partnumber": "ATtiny12",
+      "value": "t12",
+      "signature": "1e9005"
+    },
+    {
+      "partnumber": "ATtiny13",
+      "value": "t13",
+      "signature": "1e9007"
+    },
+    {
+      "partnumber": "ATtiny15",
+      "value": "t15",
+      "signature": "1e9006"
+    },
+    {
+      "partnumber": "ATtiny22",
+      "value": "2343  ",
+      "signature": "1e9103"
+    },
+    {
+      "partnumber": "ATtiny2313",
+      "value": "t2313",
+      "signature": "1e910a"
+    },
+    {
+      "partnumber": "ATtiny24",
+      "value": "t24",
+      "signature": "1e910b"
+    },
+    {
+      "partnumber": "ATtiny25",
+      "value": "t25",
+      "signature": "1e9108"
+    },
+    {
+      "partnumber": "ATtiny26",
+      "value": "t26",
+      "signature": "1e9109"
+    },
+    {
+      "partnumber": "ATtiny261",
+      "value": "t261",
+      "signature": "1e910c"
+    },
+    {
+      "partnumber": "ATtiny44",
+      "value": "t44",
+      "signature": "1e9207"
+    },
+    {
+      "partnumber": "ATtiny45",
+      "value": "t45",
+      "signature": "1e9206"
+    },
+    {
+      "partnumber": "ATtiny461",
+      "value": "t461",
+      "signature": "1e9208"
+    },
+    {
+      "partnumber": "ATtiny84",
+      "value": "t84",
+      "signature": "1e930c"
+    },
+    {
+      "partnumber": "ATtiny85",
+      "value": "t85",
+      "signature": "1e930b"
+    },
+    {
+      "partnumber": "ATtiny861",
+      "value": "t861",
+      "signature": "1e930d"
+    },
+    {
+      "partnumber": "ATtiny88",
+      "value": "t88",
+      "signature": "1e9311"
+    },
+    {
+      "partnumber": "ATxmega64A1",
+      "value": "x64a1",
+      "signature": "1e964e"
+    },
+    {
+      "partnumber": "ATxmega128A1",
+      "value": "x128a1",
+      "signature": "1e974c"
+    },
+    {
+      "partnumber": "ATxmega128A1D",
+      "value": "x128a1d",
+      "signature": "1e9741"
+    },
+    {
+      "partnumber": "ATxmega192A1",
+      "value": "x192a1",
+      "signature": "1e974e"
+    },
+    {
+      "partnumber": "ATxmega256A1",
+      "value": "x256a1",
+      "signature": "1e9846"
+    },
+    {
+      "partnumber": "ATxmega64A3",
+      "value": "x64a3",
+      "signature": "1e9642"
+    },
+    {
+      "partnumber": "ATxmega128A3",
+      "value": "x128a3",
+      "signature": "1e9742"
+    },
+    {
+      "partnumber": "ATxmega192A3",
+      "value": "x192a3",
+      "signature": "1e9744"
+    },
+    {
+      "partnumber": "ATxmega256A3",
+      "value": "x256a3",
+      "signature": "1e9842"
+    },
+    {
+      "partnumber": "ATxmega256A3B",
+      "value": "x256a3b",
+      "signature": "1e9843"
+    },
+    {
+      "partnumber": "ATxmega16A4",
+      "value": "x16a4",
+      "signature": "1e9441"
+    },
+    {
+      "partnumber": "ATxmega32A4",
+      "value": "x32a4",
+      "signature": "1e9541"
+    },
+    {
+      "partnumber": "ATxmega64A4",
+      "value": "x64a4",
+      "signature": "1e9646"
+    },
+    {
+      "partnumber": "ATxmega128A4",
+      "value": "x128a4",
+      "signature": "1e9746"
+    },
+    {
+      "partnumber": ""
+    }
+  ]

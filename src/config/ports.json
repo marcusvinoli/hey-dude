@@ -1,0 +1,46 @@
+[
+    {"Default" : [
+        {
+            "port": "COM1",
+            "value": "com1"
+        },
+        {
+            "port": "COM2",
+            "value": "com2"
+        },
+        {
+            "port": "COM3",
+            "value": "com3"
+        },
+        {
+            "port": "COM4",
+            "value": "com4"
+        },
+        {
+            "port": "LPT1",
+            "value": "lpt1"
+        },
+        {
+            "port": "USB",
+            "value": "usb"
+        }
+    ]},
+
+    {"STK500 v2" : [{
+        "port": "HID",
+        "value": "avrdoper"
+    }
+    ]},
+
+    {"AVRISP mkII" : [{
+        "port": "USB",
+        "value": "usb"
+    }
+    ]},
+
+    {"USBasp" : [
+    ]},
+
+    {"USBtiny" : [
+    ]}
+]

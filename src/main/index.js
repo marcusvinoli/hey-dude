@@ -26,13 +26,12 @@ function createWindow () {
     useContentSize: true
   })
 
-  mainWindow.setResizable(false)
+  mainWindow.setResizable(true)
 
   mainWindow.setFullScreenable(false)
 
-  mainWindow.loadURL(winURL)
-
   mainWindow.setMenu(null)
+  mainWindow.loadURL(winURL)
 
   mainWindow.on('closed', () => {
     mainWindow = null
@@ -63,11 +62,9 @@ app.on('activate', () => {
 
 /*
 import { autoUpdater } from 'electron-updater'
-
 autoUpdater.on('update-downloaded', () => {
   autoUpdater.quitAndInstall()
 })
-
 app.on('ready', () => {
   if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdates()
 })

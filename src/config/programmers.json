@@ -1,0 +1,222 @@
+[
+    {
+      "programmer": "ALF",
+      "value": " "
+    },
+    {
+      "programmer": "Arduino",
+      "value": " "
+    },
+    {
+      "programmer": "AT ISP",
+      "value": " "
+    },
+    {
+      "programmer": "AVR109",
+      "value": " "
+    },
+    {
+      "programmer": "AVR910",
+      "value": " "
+    },
+    {
+      "programmer": "AVR911",
+      "value": " "
+    },
+    {
+      "programmer": "AVRISP",
+      "value": " "
+    },
+    {
+      "programmer": "AVRISP 2",
+      "value": " "
+    },
+    {
+      "programmer": "AVRISP mkII",
+      "value": " "
+    },
+    {
+      "programmer": "AVRISP v2",
+      "value": " "
+    },
+    {
+      "programmer": "Bascom",
+      "value": " "
+    },
+    {
+      "programmer": "Blaster",
+      "value": " "
+    },
+    {
+      "programmer": "BSD",
+      "value": " "
+    },
+    {
+      "programmer": "Butterfly",
+      "value": " "
+    },
+    {
+      "programmer": "C2N232I",
+      "value": " "
+    },
+    {
+      "programmer": "DAPA",
+      "value": " "
+    },
+    {
+      "programmer": "DASA",
+      "value": " "
+    },
+    {
+      "programmer": "DASA 3",
+      "value": " "
+    },
+    {
+      "programmer": "Dragon_DW",
+      "value": " "
+    },
+    {
+      "programmer": "Dragon_HVSP",
+      "value": " "
+    },
+    {
+      "programmer": "Dragon_ISP",
+      "value": " "
+    },
+    {
+      "programmer": "Dragon_JTAG",
+      "value": " "
+    },
+    {
+      "programmer": "Dragon_PP",
+      "value": " "
+    },
+    {
+      "programmer": "DT006",
+      "value": " "
+    },
+    {
+      "programmer": "ERE-ISP-AVR",
+      "value": " "
+    },
+    {
+      "programmer": "Frank-STK200",
+      "value": " "
+    },
+    {
+      "programmer": "Futurlec",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 1",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 1Slow",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 2Slow",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 2",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 2Fast",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 2ISP",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG 2dW",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG mkI",
+      "value": " "
+    },
+    {
+      "programmer": "JTAG mkII",
+      "value": " "
+    },
+    {
+      "programmer": "MIB510",
+      "value": " "
+    },
+    {
+      "programmer": "pAVR",
+      "value": " "
+    },
+    {
+      "programmer": "Picoweb",
+      "value": " "
+    },
+    {
+      "programmer": "Pony-STK200",
+      "value": " "
+    },
+    {
+      "programmer": "ponyser",
+      "value": " "
+    },
+    {
+      "programmer": "SI Prog",
+      "value": " "
+    },
+    {
+      "programmer": "SP12",
+      "value": " "
+    },
+    {
+      "programmer": "STK200",
+      "value": " "
+    },
+    {
+      "programmer": "STK500",
+      "value": " "
+    },
+    {
+      "programmer": "STK500 HVSP",
+      "value": " "
+    },
+    {
+      "programmer": "STK500 PP",
+      "value": " "
+    },
+    {
+      "programmer": "STK500 v1",
+      "value": " "
+    },
+    {
+      "programmer": "STK500 v2",
+      "value": " "
+    },
+    {
+      "programmer": "STK600",
+      "value": " "
+    },
+    {
+      "programmer": "STK600 HVSP",
+      "value": " "
+    },
+    {
+      "programmer": "STK600 PP",
+      "value": " "
+    },
+    {
+      "programmer": "USBasp",
+      "value": " "
+    },
+    {
+      "programmer": "USBtiny",
+      "value": " "
+    },
+    {
+      "programmer": "Xil",
+      "value": " "
+    }
+  ]

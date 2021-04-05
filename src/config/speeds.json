@@ -1,0 +1,94 @@
+[
+    {
+      "baudrate": "Default",
+      "value": "-b x"
+    },
+    {
+      "baudrate": "BR 1200",
+      "value": "-b 1200"
+    },
+    {
+      "baudrate": "BR 2400",
+      "value": "-b 2400"
+    },
+    {
+      "baudrate": "BR 4800",
+      "value": "-b 4800"
+    },
+    {
+      "baudrate": "BR 9600",
+      "value": "-b 9600"
+    },
+    {
+      "baudrate": "BR 14400",
+      "value": "-b 14400"
+    },
+    {
+      "baudrate": "BR 19200",
+      "value": "-b 19200"
+    },
+    {
+      "baudrate": "BR 38400",
+      "value": "-b 38400"
+    },
+    {
+      "baudrate": "BR 57600",
+      "value": "-b 57600"
+    },
+    {
+      "baudrate": "BR 115200",
+      "value": "-b 115200"
+    },
+    {
+      "baudrate": "BC 1200",
+      "value": "-B 1200"
+    },
+    {
+      "baudrate": "BC 2400",
+      "value": "-B 2400"
+    },
+    {
+      "baudrate": "BC 4800",
+      "value": "-B 4800"
+    },
+    {
+      "baudrate": "BC 9600",
+      "value": "-B 9600"
+    },
+    {
+      "baudrate": "BC 14400",
+      "value": "-B 14400"
+    },
+    {
+      "baudrate": "BC 19200",
+      "value": "-B 19200"
+    },
+    {
+      "baudrate": "BC 38400",
+      "value": "-B 38400"
+    },
+    {
+      "baudrate": "BC 57600",
+      "value": "-B 57600"
+    },
+    {
+      "baudrate": "BC 115200",
+      "value": "-B 115200"
+    },
+    {
+      "baudrate": "BC 230400",
+      "value": "-B 230400 "
+    },
+    {
+      "baudrate": "BC 460800",
+      "value": "-B 460800"
+    },
+    {
+      "baudrate": "BC 921600",
+      "value": "-B 921600"
+    },
+    {
+      "baudrate": "BC 3000000",
+      "value": "-B 3000000"
+    }
+  ]
