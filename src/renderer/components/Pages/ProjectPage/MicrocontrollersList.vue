@@ -4,8 +4,8 @@
 
 <script>
 //  import LandingPage from './LandingPage.vue'
-import DropdownList from './DropdownList.vue'
-const microcontrollers = require('../../config/microcontrollers.json')
+import DropdownList from '../../Commons/DropdownList'
+const microcontrollers = require('../../../../config/microcontrollers.json')
 
 export default {
   components: {

@@ -11,27 +11,7 @@
             <button class = "menu-item-button" onclick="console.log('D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
         </div>
         <div class="right-canvas" id="page-canvas">
-          <div id="project-page">
-              <div class="field-box project-name-field">
-                  <label for="project-name">Project Name</label>
-                  <input class="field" type="text" id="project-name" name="project-name">
-              </div>
-
-              <div class="field-box mcu-part-field">
-                  <MicrocontrollersList/>
-              </div>
-
-              <div class="field-box programmer-field">
-                  <ProgrammersList/>
-              </div>
-
-              <div class="field field-buttons">
-                  <button class="generic-button">Open</button>
-                  <button class="generic-button">Save New Project</button>
-              </div>
-
-          </div>
-
+            <ProjectPage/>
         </div>
     </div>
     <div class ="status-bar">
@@ -41,16 +21,13 @@
 </template>
 
 <script>
-  //  import SystemInformation from './LandingPage/SystemInformation'
-  import MicrocontrollersList from './MicrocontrollersList'
-  import ProgrammersList from './ProgrammersList'
+import ProjectPage from './Pages/ProjectPage'
 
-  export default {
-    components: {
-      MicrocontrollersList,
-      ProgrammersList
-    }
+export default {
+  components: {
+    ProjectPage
   }
+}
 </script>
 
 <style>

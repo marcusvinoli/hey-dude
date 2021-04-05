@@ -4,8 +4,8 @@
 
 <script>
 //  import LandingPage from './LandingPage.vue'
-import DropdownList from './DropdownList.vue'
-const programmerTools = require('../../config/programmers.json')
+import DropdownList from '../../commons/DropdownList.vue'
+const programmerTools = require('../../../../config/programmers.json')
 
 export default {
   components: {
