@@ -11,7 +11,8 @@
             <button class = "menu-item-button" onclick="console.log('D')"><div class = "menu-item-icon" id = "menu-item-icon-fuses"></div>Fuses</button>
         </div>
         <div class="right-canvas" id="page-canvas">
-            <ProjectPage/>
+            <ProjectPage style="display: none"/>
+            <FirmwarePage/>
         </div>
     </div>
     <div class ="status-bar">
@@ -22,10 +23,12 @@
 
 <script>
 import ProjectPage from './Pages/ProjectPage'
+import FirmwarePage from './Pages/FirmwarePage'
 
 export default {
   components: {
-    ProjectPage
+    ProjectPage,
+    FirmwarePage
   }
 }
 </script>

@@ -107,12 +107,6 @@ body {
     border-radius: 15px;
 }
 
-input[type=file] {
-    height: 35px;
-    background-color: blue;
-    border-radius: 12px;
-}
-
 label {
     line-height: 20px;
     padding-left: 5px;
